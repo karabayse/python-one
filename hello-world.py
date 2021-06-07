@@ -3,8 +3,6 @@ print("Hello and welcome " + my_name + "!")
 
 print("Hello world!")
 
-my_list = [1, 2, 3, 4, 5]
-
 
 x = 3    # int
 y = 6.3  # float
@@ -22,3 +20,8 @@ if b > a:
 # written on
 # more than just one line
 print("Hello, World!")
+
+
+# Python Lists
+# 1 of 4 built-in data types (the others are Tuple, Set, and Dictionary)
+my_list = ["apple", "banana", "cherry"]
