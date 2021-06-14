@@ -30,3 +30,8 @@ my_list = ["apple", "banana", "cherry"]
 # The key function for working with files in Python is the open() function.
 # To open a file for reading it is enough to specify the name of the file:
 f = open("demofile.txt")
+
+
+# functions
+def my_function():
+  print("Hello from a function")
