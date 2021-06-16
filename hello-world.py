@@ -37,3 +37,12 @@ def my_function():
   print("Hello from a function")
 
 my_function()
+
+
+# arguments
+def my_function(fname):
+  print(fname + " Seville")
+
+my_function("Alvin")
+my_function("Simon")
+my_function("Theodore")
