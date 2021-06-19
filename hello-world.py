@@ -55,3 +55,11 @@ def my_function(**kid):
   print("His last name is " + kid["lname"])
 
 my_function(fname = "Tobias", lname = "Refsnes")
+
+
+# default parameter value
+# if a function is called without a parameter value, it uses the default value
+def my_function(country = "United States"):
+  print("I am from " + country)
+
+my_function()
