@@ -63,3 +63,13 @@ def my_function(country = "United States"):
   print("I am from " + country)
 
 my_function()
+
+
+# passing a list as an argument
+def my_function(food):
+  for x in food:
+    print(x)
+
+fruits = ["peach", "blueberry", "cherry"]
+
+my_function(fruits)
