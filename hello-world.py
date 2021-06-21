@@ -73,3 +73,9 @@ def my_function(food):
 fruits = ["peach", "blueberry", "cherry"]
 
 my_function(fruits)
+
+
+# the pass statement
+# put in the pass statement to avoid getting an error for empty function definitions
+def myfunction():
+  pass
