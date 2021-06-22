@@ -79,3 +79,16 @@ my_function(fruits)
 # put in the pass statement to avoid getting an error for empty function definitions
 def myfunction():
   pass
+
+
+# recursion
+def tri_recursion(k):
+  if(k > 0):
+    result = k + tri_recursion(k - 1)
+    print(result)
+  else:
+    result = 0
+  return result
+
+print("\n\nRecursion Example Results")
+tri_recursion(6)
