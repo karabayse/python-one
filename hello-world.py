@@ -92,3 +92,9 @@ def tri_recursion(k):
 
 print("\n\nRecursion Example Results")
 tri_recursion(6)
+
+
+# lambda function
+# small anonymous function
+x = lambda a : a + 10
+print(x(5))
