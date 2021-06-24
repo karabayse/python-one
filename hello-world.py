@@ -102,3 +102,4 @@ print(x(5))
 
 # arrays
 colors = ["red", "yellow", "blue"]
+colors.append("green")
