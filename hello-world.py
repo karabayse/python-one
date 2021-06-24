@@ -98,3 +98,7 @@ tri_recursion(6)
 # small anonymous function
 x = lambda a : a + 10
 print(x(5))
+
+
+# arrays
+colors = ["red", "yellow", "blue"]
