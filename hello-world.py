@@ -104,3 +104,8 @@ print(x(5))
 colors = ["red", "yellow", "blue"]
 colors.append("green")
 colors.pop("red")
+
+
+# classes
+class MyClass:
+  x = 5
