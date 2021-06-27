@@ -109,3 +109,15 @@ colors.pop("red")
 # classes
 class MyClass:
   x = 5
+
+
+# init function
+class Dog:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+p1 = Dog("Kernel", 3)
+
+print(p1.name)
+print(p1.age)
