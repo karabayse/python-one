@@ -121,3 +121,8 @@ p1 = Dog("Kernel", 3)
 
 print(p1.name)
 print(p1.age)
+
+
+# iterators
+mytuple = ("strawberry", "blueberry", "blackberry")
+myit = iter(mytuple)
