@@ -126,3 +126,10 @@ print(p1.age)
 # iterators
 mytuple = ("strawberry", "blueberry", "blackberry")
 myit = iter(mytuple)
+
+
+# dates
+import datetime
+
+x = datetime.datetime.now()
+print(x)
