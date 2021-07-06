@@ -165,3 +165,8 @@ try:
   print(x)
 except:
   print("An exception occurred")
+
+
+# user input
+username = input("Enter username:")
+print("Username is: " + username)
