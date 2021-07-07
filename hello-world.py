@@ -170,3 +170,9 @@ except:
 # user input
 username = input("Enter username:")
 print("Username is: " + username)
+
+
+# string format method
+price = 50
+txt = "The price is {} dollars"
+print(txt.format(price))
